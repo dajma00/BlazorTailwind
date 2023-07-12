@@ -6,6 +6,6 @@ npx tailwindcss -i ./Styles/app.css -o ./wwwroot/app.css --watch
 ```
 If you have never worked with Node, you will have to install it on your machine for this command to work.
 ## Important Files
-tailwind.config.js - this file is used by Tailwind. It has various Tailwind configuration parameters. But most importantly it lists the directories that must
+tailwind.config.js - this file is used by Tailwind. It has various Tailwind configuration parameters. It lists the directories that must
 be 'watched' so the Tailwind compiler can detect any changes to those file and create the app.css file in the wwwroot directory. If you have any directories
 other than the ones in this template that are going to use Tailwind classes, those must be added to this file.
