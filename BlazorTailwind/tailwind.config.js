@@ -14,7 +14,8 @@ module.exports = {
         './src/html/*.html',
         './src/pages/*.js',
         './public/*.html',
-        './**/*.{razor,cshtml}'
+        './**/*.{razor,cshtml}',
+        require('@tailwindcss/forms')
     ],
 
     theme: {
